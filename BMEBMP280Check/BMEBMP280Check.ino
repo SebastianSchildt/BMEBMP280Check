@@ -59,15 +59,15 @@ BME_CHECK_DONE:
 
   if (has_bme280) {
     Serial.println("\nBME280 data:");
-    Serial.print("Temperature is :"); Serial.print(bme280.readTemperature()); Serial.println("");
-    Serial.print("Humidity is    :"); Serial.print(bme280.readHumidity()); Serial.println("");
-    Serial.print("Pressure is    :"); Serial.print(bme280.readPressure()); Serial.println("");
+    Serial.print("Temperature is : "); Serial.print(bme280.readTemperature()); Serial.println("");
+    Serial.print("Humidity is    : "); Serial.print(bme280.readHumidity()); Serial.println("");
+    Serial.print("Pressure is    : "); Serial.print(bme280.readPressure()); Serial.println("");
   }
 
 if (has_bmp280) {
-    Serial.println("\nBME280 TEST");
-    Serial.print("Temperature is :"); Serial.print(bme280.readTemperature()); Serial.println("");
-    Serial.print("Pressure is    :"); Serial.print(bme280.readPressure()); Serial.println("");
+    Serial.println("\nBME280 data");
+    Serial.print("Temperature is : "); Serial.print(bme280.readTemperature()); Serial.println("");
+    Serial.print("Pressure is    : "); Serial.print(bme280.readPressure()); Serial.println("");
   }
   
 
